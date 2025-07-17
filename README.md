@@ -4,7 +4,7 @@
 
 This project was created out of the need for a simple, embeddable documentation tool that integrates seamlessly with modern static sites and external frameworks, such as **Astro + Starlight**, without the overhead of traditional tools.
 
-It is currently being developed as part of the [Mosaic game engine](https://github.com/Wilielmus/mosaic) project.
+It is currently being developed as part of the [Mosaic game engine](https://github.com/WilliamKarolDiCioccio/mosaic) project.
 
 ---
 
@@ -19,4 +19,4 @@ It is currently being developed as part of the [Mosaic game engine](https://gith
 
 ## 📄 License
 
-Mosaic comes under the permissive MIT License to encourage contributions. See the [`LICENSE.md`](./LICENSE.md) file for more information.
+Mosaic comes under the permissive MIT License to encourage contributions. See the [`LICENSE`](./LICENSE) file for more information.
