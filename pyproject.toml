@@ -1,0 +1,40 @@
+[project]
+name = "my-cpp-docs-gen"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Wilielmus",email = "88447902+WilliamKarolDiCioccio@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "my_cpp_docs_gen", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+ruff = "^0.12.3"
+mypy = "^1.17.0"
+pre-commit = "^4.2.0"
+mkdocs = "^1.6.1"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "B"]  # Errors, flake8, imports, bugbear
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
